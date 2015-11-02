@@ -1,0 +1,22 @@
+{
+    "name": "gitbook-plugin-styles-less",
+    "description": "Use LESS stylesheets instead of CSS",
+    "main": "index.js",
+    "version": "0.0.0",
+    "engines": {
+        "gitbook": ">=2.0.0"
+    },
+    "dependencies": {
+        "q": "^1.1.2",
+        "less": "2.5.3"
+    },
+    "homepage": "https://github.com/GitbookIO/plugin-styles-less",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GitbookIO/plugin-styles-less.git"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/GitbookIO/plugin-styles-less/issues"
+    }
+}
