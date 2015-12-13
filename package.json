@@ -11,6 +11,10 @@
         "less": "2.5.3",
         "lodash": "^3.10.0"
     },
+    "devDependencies": {
+        "gitbook-tester": "1.2.0",
+        "mocha": "^2.3.4"
+    },
     "homepage": "https://github.com/GitbookIO/plugin-styles-less",
     "repository": {
         "type": "git",
@@ -19,5 +23,8 @@
     "license": "Apache-2.0",
     "bugs": {
         "url": "https://github.com/GitbookIO/plugin-styles-less/issues"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --reporter spec --timeout 15000"
     }
 }
