@@ -11,6 +11,11 @@ function renderLESS(input, output) {
         encoding: 'utf-8'
     });
 
+    var outputDir = path.dirname(output);
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir);
+    }
+
     less.render(lessinput, {
         paths: [
             path.dirname(input)
